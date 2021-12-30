@@ -1,4 +1,3 @@
-// import React, { Component } from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import HomePage from "./pages/HomePage";
 import Mobails from "./pages/Mobails";
@@ -24,18 +23,3 @@ function App() {
   );
 }
 export default App;
-
-// class App extends Component {
-//   render() {
-//     return (
-//       <BrowserRouter>
-//         <Route exact path="/" Component={HomePage} />
-//         <Route path="/Mobails" Component={Mobails} />
-//         <Route path="/LoginPage" Component={LoginPage} />
-//         <Route path="/SignUp" Component={SignUp} />
-//         <Route path="/Laps" Component={Laps} />
-//         <Route path="/Cart" Component={Cart} />
-//       </BrowserRouter>
-//     );
-//   }
-// }
